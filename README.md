@@ -28,6 +28,9 @@ LDR sensor read. Apart from this, we implement a moveable
 solar system according sun's position to absorb maximum power
 using a servo motor and LDR sensor.
 
+![Blue Circuit](https://github.com/TashinParvez/Smart-Cricket-Stadium/assets/84122972/2e8d4798-823a-490c-88e2-e4f1ca1317d7)
+
+
 ##  COMPONENT LIST
 
 1) Arduino Uno
