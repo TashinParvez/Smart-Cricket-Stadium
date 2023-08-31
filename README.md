@@ -67,6 +67,8 @@ using a servo motor and LDR sensor.
 
     Using LDR sensors we measure sunlight depending on our system increases and decreases the power of stadium lights.
 
+![Team Blue Circuit](https://github.com/TashinParvez/Smart-Cricket-Stadium/assets/84122972/b934245d-df22-445d-be51-ed4b4d792201)
+
 
 ##  IMPLEMENTATION
 1. Automate pitch covering:
@@ -125,3 +127,4 @@ according Arduino Signal.
 - [@SharminLiza](https://github.com/SharminLiza)
 - [@musfiqurR661](https://github.com/musfiqurR661)
 - [@mnoman338](https://github.com/mnoman338)
+![blueSnew](https://github.com/TashinParvez/Smart-Cricket-Stadium/assets/84122972/9fbc9f0a-64ab-48a9-a729-7031cbf5e191)
