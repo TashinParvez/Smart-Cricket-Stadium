@@ -1,33 +1,32 @@
-#  Arduino based Smart Cricket Stadiun
+#  Arduino-based Smart Cricket Stadium
 
-**Abstract**— This report is about to an electronic hardware based
-project where we have implemented an Arduino based Smart
+**Abstract**— This report is about to an electronic hardware-based
+project where we have implemented an Arduino-based Smart
 Cricket Stadium. Our aim is to make cricket games more efficient
-during unstable weather by implementing an automated pitch
-covering system. To make this report understandable, We added
+during unstable weather by implementing an automated pitch-covering system. To make this report understandable, We added
 a flowchart, photographs, and descriptions. Our features can also
 be applicable in other places.
 
-**Index Terms**— Arduino,HDS,Stepper Motor, LDR, Servo, IR
+**Index Terms**— Arduino, HDS, Stepper Motor, LDR, Servo, IR
 
 
 ##  PROJECT OVERVIEW
 
-Our project is about an Arduino-based smart cricket stadium. The reason we implemented this project was to make
+Our project is about an Arduino-based smart cricket stadium. The reason we implemented this project was to make
 cricket more automated and accurate. We also ensure that our
 automated feature is suitable during playtime. We secure the
 pitch to be dry during rain time so that the play may start
 after the rain using HDS and Stepper Motor. Also, we placed
 the boundary line after displacement by fielders or others.
-To detect that the line is displace we use weight sensor and
-fixed the line using DC Motor Mechanism. And to ensure the
-power play rules, we get count from IR sensor that how many
-players are inside 30 yards and outside 30 yards . This will
+To detect that the line is displaced we used a weight sensor and
+fixed the line using DC Motor Mechanism. To ensure the
+power play rules, we get the count from IR sensor of how many
+players are inside 30 yards and outside 30 yards. This will
 help the umpire make the correct decision. Another feature is
-control stadium light brightness according sunlight based on
-LDR sensor read. Apart from this we implement move able
-solar system according sun position to absorb maximum power
-using servo motor and LDR sensor.
+the control of stadium light brightness according to sunlight based on
+LDR sensor read. Apart from this, we implement a moveable
+solar system according sun's position to absorb maximum power
+using a servo motor and LDR sensor.
 
 ##  COMPONENT LIST
 
@@ -58,7 +57,7 @@ First We detect whether the boundary line moved from its actual place or not the
 
 - **Maximum Sunlight absolve system**  
 
-LDR sensor tracks the sun, aligning solar-covered roof for optimal power.
+LDR sensor tracks the sun, aligning solar-covered roofs for optimal power.
 
 - **Automated Light Brightness Increase And Decrease**
 
@@ -68,12 +67,11 @@ Using LDR sensors we measure sunlight depending on our system increases and decr
 ##  IMPLEMENTATION
 1. Automate pitch covering:
 
-When rain started Humidity Detection sensor detect rain
-it send reading to the Arduino and Arduino command
+When the rain starts Humidity Detection sensor detects rain. It sends readings to the Arduino and Arduino command
 the stepper motor to proceed.
 Humidity Detection Sensor —–Arduino Uno —— Stepper Motor —–Cover Mechanism
-Humidity Detection Sensor: Detect when rain started.
-Aurduino Uno:
+Humidity Detection Sensor: Detect when rain starts.
+Arduino Uno:
 Read analog signal from sensor and analize reading.
 Stepper Motor:
 After receiving signal from aurduino motor takes the
