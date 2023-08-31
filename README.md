@@ -94,3 +94,11 @@ send command to LED Light.
 LED Light: LED light Ingres or decrease brightness
 according Arduino Signal.
 
+
+## Authors
+
+- [@shafayetOvi](https://www.github.com/octokatherine](https://github.com/shafayetOvi)https://github.com/shafayetOvi)
+- [@TashinParvez](https://github.com/TashinParvez)
+- [@SharminLiza](https://github.com/SharminLiza)
+- [@musfiqurR661](https://github.com/musfiqurR661)
+- [@mnoman338](https://github.com/mnoman338)
