@@ -50,21 +50,22 @@ using a servo motor and LDR sensor.
 ##  Features
 - **Automate pitch covering**
 
-We detect rain using rain sensors. When rain is detected, our system provides a 5-second warning and activates our covering system.
+    We detect rain using rain sensors. When rain is detected, our system provides a 5-second warning and activates our covering system.
 
 - **Automated Boundary Line fixing** 
 
-First We detect whether the boundary line moved from its actual place or not then our system runs 2 DC motors to fix that system.
+    First We detect whether the boundary line moved from its actual place or not then our system runs 2 DC motors to fix that system.
 
-- **Power Play Player Count**  
+- **Power Play Player Count**
+    Our system can count the player under 30 yards which helps umpire the run a game perfectly.
 
 - **Maximum Sunlight absolve system**  
 
-LDR sensor tracks the sun, aligning solar-covered roofs for optimal power.
+    LDR sensor tracks the sun, aligning solar-covered roofs for optimal power.
 
 - **Automated Light Brightness Increase And Decrease**
 
-Using LDR sensors we measure sunlight depending on our system increases and decreases the power of stadium lights.
+    Using LDR sensors we measure sunlight depending on our system increases and decreases the power of stadium lights.
 
 
 ##  IMPLEMENTATION
